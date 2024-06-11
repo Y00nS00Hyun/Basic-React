@@ -1,5 +1,12 @@
+import Dice from "./Dice";
+
 function Apple() {
-  return <div> 🍎 수현 사과 🍎</div>;
+  return (
+    <>
+      <h1>🍀🐳👑🍧</h1>
+      <Dice />
+    </>
+  );
 }
 
 export default Apple;
