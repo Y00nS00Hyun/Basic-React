@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
+import Apple from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const element = <h1>안녕 수현아</h1>;
 
-root.render(<>{element}</>, document.getElementById("root"));
+root.render(<Apple />);
