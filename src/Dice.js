@@ -7,4 +7,4 @@ function Dice() {
 }
 
 //export 로 이미지 내보내기
-export default Dice;
+export default Dice1;
