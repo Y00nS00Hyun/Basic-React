@@ -6,7 +6,5 @@ function Dice() {
   return <img src={diceBlue02} alt="주사위" />;
 }
 
-let Dice1 = 1;
-
 //export 로 이미지 내보내기
-export default Dice1;
+export default Dice;
