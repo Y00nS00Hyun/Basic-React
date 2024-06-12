@@ -4,7 +4,7 @@ function Apple() {
   return (
     <>
       <h1>🍀🐳👑🍧</h1>
-      <Dice />
+      <Dice color="red" />
     </>
   );
 }
