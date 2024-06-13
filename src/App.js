@@ -8,14 +8,14 @@ function random(n) {
 }
 
 function App() {
-  const [num, setNum] = useState(1); // [state값, 세터 함수]
+  const [num, setNum] = useState(1); // [state값, 세터 함수], 1로 초기화
 
   const handleRollClick = () => {
     const nextNum = random(6);
     setNum(nextNum);
   };
 
-  // 초기화 (주사위 1)
+  // 처음부터 버튼 누르면 1로 바뀜
   const handleClearClick = () => {
     setNum(1);
   };
