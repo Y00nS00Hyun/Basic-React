@@ -16,7 +16,7 @@ function App() {
     const nextNum = random(6);
     setNum(nextNum);
     setSum(sum + nextNum); //총점
-    setGameHistory([...gameHistory, nextNum]); //결과 기록, spread 쓰기
+    setGameHistory([nextNum, ...gameHistory]); //결과 기록, spread 쓰기
   };
 
   // 처음부터 버튼 누르면 1로 바뀜
