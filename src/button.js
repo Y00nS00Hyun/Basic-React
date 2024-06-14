@@ -1,9 +1,9 @@
 import "./Button.css";
 
 function Button({ children, onClick, color = "blue", className = " " }) {
-  const classNames = `Button ${color} ${className}`;
+  const classNamesSoohyun = `Button ${color} ${className}`;
   return (
-    <button className={classNames} onClick={onClick}>
+    <button className={classNamesSoohyun} onClick={onClick}>
       {children}
     </button>
   );
